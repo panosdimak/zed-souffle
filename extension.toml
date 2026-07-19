@@ -1,0 +1,11 @@
+id = "souffle"
+name = "Soufflé"
+version = "0.1.0"
+schema_version = 1
+authors = ["Panos Dimakakos <pdimakakos@proton.me>"]
+description = "Soufflé Datalog language support."
+repository = "https://github.com/panosdimak/zed-souffle"
+
+[grammars.souffle]
+repository = "https://github.com/langston-barrett/tree-sitter-souffle"
+commit = "0ca94fad4422bc9a391f81418b5716e3af00ed2f"
